@@ -1,0 +1,90 @@
+body {
+    background: #4effee;
+    border: 4px solid #4eff56;
+}
+
+h1 {
+    font: bold 50px verdana, sans-serif;
+    background: #ffffff;
+    text-shadow: #ffffff 3px 3px 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+#principal {
+    float: right;
+    display: inline block;
+    width: 100px;
+    width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #546313;
+    background: #eae124;
+    list-style: none;
+}
+
+img {
+    float: right;
+    width: 100px;
+    list style: none;
+}
+
+#principal:hover {
+    -webkit-transform: rotate(5deg);
+    border-radius: 20px/10px;
+    box-shadow: rgb(0, 0, 0, 150) 5px 5px 10px;
+    background: -webkit-linear-gradient(30deg, #cad84e, #5cc104);
+    background: -webkit-radial-gradient: (center, circle, #ffffff 0% #124525 200%);
+    -webkit-transform: translatey(30px);
+}
+
+#columna img {
+    float: left;
+    width: 500px;
+    padding: 10px;
+    margin: 0px;
+}
+
+#ventanasemergente {
+    float: center;
+    display: block;
+    width: 50%;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #546313;
+    background: #eae124;
+    list-style: none;
+}
+
+#ventanasemergente:hover {
+    -webkit-transform: rotate(5deg);
+    border-radius: 20px/10px;
+    box-shadow: rgb(0, 0, 0, 150) 5px 5px 10px;
+    background: -webkit-linear-gradient(30deg, #cad84e, #5cc104);
+    background: -webkit-radial-gradient: (center, circle, #ffffff 0% #124525 200%);
+    -webkit-transform: translatey(30px);
+}
+
+<style type="text/css">#muestras img {
+    width: 100px;
+    margin: 10px 30px;
+    cursor: pointer, hand;
+}
+
+#visor {
+    text-align: center;
+    float: right;
+    margin: 0 20px
+}
+
+#pantalla {
+    width: 500px;
+    padding: 30px;
+    border: 5px double green;
+    background-color: #f4f0c9;
+}
+
+</style><script type="text/javascript">

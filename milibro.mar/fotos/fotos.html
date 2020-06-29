@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+	<html lang="es">
+		<head>
+
+
+
+			<meta name="author" content="María de los Ángeles Rivas Viamonte" />
+			<meta name="description" content="Libros online,Ventas, Libros, Videos,
+				Cuentos, Diseño, Fotografías, Diseño de Paginas Web, MAR, Maria de los
+				Angeles Rivas Viamonte" />
+			<meta name="keywords" content="Libros, Videos, Fotografías, Diseño de Paginas
+				Web" />
+			<meta name="copyright" content="María de los Ángeles Rivas Viamonte" />
+			<meta name="revisit-after" content="1 mont" />
+			<meta name="revisit-after" content="1 mont" />
+			<meta name="robots" content="index,follow" />
+			<META http-equiv="Content-Type" content="text/html;charset=utf-8" />
+			<meta http-equiv="Refresh" content="1600" />
+			<title> Fotos y Dibujos.MAr </title>
+			<link rel="shortcut icon" type="image/x-icon" href="icono/favicon.ico" />
+			<link rel="stylesheet" href="../fotos/fotos.css" />
+			<script src="https://kit.fontawesome.com/8d1f6cc27f.js"
+				crossorigin="anonymous"></script>
+			<script> 
+	function muestra(num) {
+		imagen = document.images[num].src
+		comentario = document.images[num].alt
+		grande = document.images["pantalla"]
+		texto = document.getElementById("descripcion")
+		grande.src = imagen
+		texto.innerHTML = comentario
+	}
+	  
+</script>
+		</head>
+
+
+		<body>
+			<header>
+				<h1>Fotos y Dibujos.Mar </h1>
+
+				<div id="principal">
+
+
+					<figure> <img src="imagenes/pico.PNG"> </figure>
+
+					<nav>
+						<ul>
+							<li><a class="menuButton" href="../tesis/ATesis.html"> &laquo; Anterior
+								</a></li>
+							<li> <a class="menuButton"
+									href="../investigacion/InvestigacionDesarrollo.html"> Siguiente&laquo;</a>
+								<li>
+									<li> <a class="menuButton" href="../Principal.css/index.html"> Regresar
+											a Pagina Principal</a> </li>
+
+								</ul>
+							</nav>
+						</div>
+
+					</header>
+
+
+					<h4>Acceso a imágenes. Pulsa sobre la imagen para verla en grande</h4>
+
+					<div id="visor">
+						<h3 id="descripcion">Fotos.MAR</h3>
+						<img src="imagenes/reloj.png" alt="Barca de pesca" id="pantalla" />
+					</div>
+					<div id="muestras">
+						<img onclick="muestra('primera')" name="primera"
+							src="imagenes/pajaros3.png" alt="Pajaros3" />
+						<img onclick="muestra(2)" src="imagenes/pajaros.png" alt="Pajaros" />
+						<img onclick="muestra(3)" src="imagenes/tarjeta.png" alt="Tarjeta" />
+						<img onclick="muestra(4)" src="imagenes/reloj.png" alt="Reloj" />
+					</div>
+
+					<div id="ventanasemergentes">
+
+						<h4>Ventanas emergentes:</h4>
+						<h2>Haz click en el texto para que aparezca la ventana emergente.</h2>
+						<h3><span
+								onclick="open('http://www.google.es','Google','toolbar=yes,statusbar=yes,width=600,height=400')">
+								Abrir Google</span></h3>
+						<h3><span
+								onclick="open('http://www.yahoo.es','Yahoo','titlebar=yes,resizable=no,scrollbars=yes,width=500,height=300,top=100,left=200')">
+								Abrir Yahoo</span></h3>
+						<h3><span
+								onclick="open('http://es.wikipedia.org','Wikipedia','titlebar=yes,toolbar=yes,menubar=yes,status=yes,scrollbars=yes,top=150.left=200')">
+								Abrir Wikipedia</span></h3>
+					</div>
+				</body>
+			</html>

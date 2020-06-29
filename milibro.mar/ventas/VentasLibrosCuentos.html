@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+    <html lang="es">
+        <head>
+
+
+            <meta name="author" content="María de los Ángeles Rivas Viamonte" />
+            <meta name="description" content="Libros online,Ventas, Libros,
+                Videos, Cuentos, Diseño, Fotografías, Diseño de Paginas Web,
+                MAR, Maria de los Angeles Rivas Viamonte" />
+            <meta name="keywords" content="Libros, Videos, Fotografías, Diseño
+                de Paginas Web" />
+            <meta name="copyright" content="María de los Ángeles Rivas Viamonte"
+                />
+            <meta name="revisit-after" content="1 mont" />
+            <meta name="revisit-after" content="1 mont" />
+            <meta name="robots" content="index,follow" />
+            <META http-equiv="Content-Type" content="text/html;charset=utf-8" />
+            <meta http-equiv="Refresh" content="1600" />
+            <title> Ventas de Libros y Cuentos.MAr </title>
+            <link rel="shortcut icon" type="image/x-icon"
+                href="icono/favicon.ico" />
+            <link rel="stylesheet" href="../ventas/VentasLibrosCuentos.css" />
+            <script src="https://kit.fontawesome.com/8d1f6cc27f.js"
+                crossorigin="anonymous"></script>
+            <script>
+function mostrar(num) {
+var caja = document.getElementById("cuadro");
+var todos = document.links;
+var texto = "";
+if (num == 0 ){
+for (i=0;i
+<todos.length;i++){ texto +=todos[i] +"<br />" ; } }
+else { for (i=0;i
+<todos.length;i++){ texto +=todos[i].innerHTML +"<br />" ; } } caja.innerHTML=texto
+}
+function cambiar(){
+direccion = "http://www.youtube.com"
+document.links[3].innerHTML = "YouTube"
+document.links[3].href = direccion
+}
+</script>
+        </head>
+
+        <body>
+
+            <div id=bodyc>
+                <div>
+                    <hgroup>
+                        <h1> Ventas y Donación</h1>
+                    </hgroup>
+                </div>
+
+                <div id="cabecera1">
+                    <header>
+                        <figure> <img src="imagenes/pico.png"> </figure>
+                        <nav>
+                            <ul id="menu1">
+                                <li><a class="menuButton"
+                                        href="../opinion/opinion.html">
+                                        &laquo; Anterior </a></li>
+                                <li> <a class="menuButton"
+                                        href="../videos/videos.html">
+                                        Siguiente&laquo;</a></li>
+                                <li> <a class="menuButton"
+                                        href="../Principal.css/index.html">
+                                        Regresar a Pagina Principal</a></li>
+                                <li> <a class="boton" href="#"> Seccion de
+                                        Donación </a> <i class="gratis fab
+                                        fa-gratipay"></i> </li>
+                                <li> <a class="boton" href="#"> Seccion de
+                                        Ventas
+                                    </a> <i class="carrito fas
+                                        fa-shopping-cart"></i>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div id="cabecera2">
+                            <ul id="menu2">
+                                <li>Tarjeta de Crédito</li>
+                                <li>Tarjeta de Debito</li>
+                                <li>Contacto</li>
+                                <li>Registro</li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <div id="contenido">
+                        <section>
+                            <div id="cont-ini">
+
+                            </div>
+                            <div id="cont-form">
+                                <div id="formulario">
+                                    <form id="loggin" method="post"
+                                        action="">
+                                        <label for="Usuario">Usuario</label>
+                                        <input type="text" name="Usuario">
+                                        <label for="Contraseña">Contraseña</label>
+                                        <input type="password"
+                                            name="Contraseña">
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                        <div id="P-pag">
+
+
+                            <div>
+                                <h1>Acceso a los enlaces</h1>
+                                <div id="cuadro"></div>
+                                <h2>Enlaces a varias páginas</h2>
+                                <p><a href="http://www.google.com">Google</a></p>
+                                <p><a href="http://www.yahoo.es">Yahoo</a></p>
+                                <p><a href="http://es.msn.com/">MSN</a></p>
+                                <p><a href="http://es.altavista.com/">Altavista</a></p>
+                                <p onclick="mostrar(0)">Ver Direcciones URL</p>
+                                <p onclick="mostrar(1)">Ver Texto del Enlace</p>
+                                <p onclick="cambiar()">Cambiar cuarto enlace a
+                                    YouTube</p>
+                            </div>
+                            <footer>
+
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </body>
+
+        </html>

@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    background: #f5e7c0;
+}
+nav ul li {
+                                                       height: 5%;
+                                                        display: inline-block;
+                                                        list-style: none;
+                                                        padding: 0.5%;
+                                                        font size: 45% verdana, sans-serif;
+                                                        color: rgb(10, 9, 10);
+                                                    }
+}
+form .elegant input{
+padding: .2em;
+
+}
+label {
+    display: block;
+    margin:.5em 0 0 0;
+}
+.btn{
+    display: block;
+    margin: 1em 0;
+}
+div {
+    margin: .4em 0; 
+}
+div label {
+    width:48%
+
+float:right;}
+
+form fieldset {
+    float: left;;
+    width: 48%;
+}
+input: focus {
+border: 2px solid #000;
+background: #f3f3f3;
+}
+#principal {
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding:15px;
+    text-align: center;
+    border: 1px solid #999999;
+    background: #dddddd;
+}
+#h1{
+    font: bold 36px verdana, sans-serif;
+    text-shadow: rgba(0, 0, 0,0.5) 3px 3px 5px;
+    color: hsla(0120,100%,50%,0,5);
+    }
+    input{
+            focus:border 2px solid #000;
+            background: #f3f3f3;
+            }
+lavel{
+    margin; 15px 0px 15px 0px;
+}
+#cabecera img{float: right;
+    width: 100px;
+}
+#cabecera a {
+width:600px;
+background:#ffffff;
+}
+.item {
+    background-color:#999;
+}
+.item{
+    font-size: 1.4em;
+    font-family:sans-serif;
+    text-shadow:2px 2px #aee;
+    font-weight: bold;
+    padding:10px;
+    margin:5px;
+    
+}
+.style {
+color:#562;
+}

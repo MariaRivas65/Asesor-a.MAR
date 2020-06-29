@@ -1,0 +1,107 @@
+
+body{
+    background-color:rgba(254,25,521, .1);
+    
+}
+h1{
+    font: bold 36px verdana, sans-serif;
+    background: #ffffff;
+    }
+
+h1{
+    display:inline-block;
+    background:webkit-linear-gradient(#F06 0%, #000 100%);
+    background: linear-gradient(135deg,#F06 0%, #000 100% );
+    background: linear-gradient(to bottom right,#F06 0%, #000 100%);
+}
+li a{
+    display:inline-block;
+    font size: 15px;
+    background:#ffffff;
+}
+#menu{
+    font-size:15px;
+    color:#ffffff;
+    display:inline-block;
+}
+
+#principal{
+    display: block;
+    list-style-position: inside;
+    width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;  
+    background: linear-gradient(135deg,#F06 2%, #000 50% );
+    background: linear-gradient(to bottom right,#F06 2%, #000 50%);
+    background:webkit-linear-gradient(#F06 2%, #000 50%);
+   
+
+}
+#principal:hover{
+    position: relative;
+    -webkit-animation-direction: reverse;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-timing-function: linear;
+    font-size: 14px;
+    background: linear-gradient(135deg,#F06 0%, #000 100% );
+    background: linear-gradient(to bottom right,#F06 0%, #000 100%);
+    background:webkit-linear-gradient(#F06 0%, #000 100%);
+   
+}
+
+#principal2 {
+    display:inline-block;
+    list-style: none;
+    padding: 5px;
+    font: 14px verdana,sans-serif;
+    color: #ffffff;
+}
+
+form .elegant input{
+padding: .2em;
+
+}
+label {
+    display: block;
+    margin:.5em 0 0 0;
+}
+.btn{
+    display: block;
+    margin: 1em 0;
+}
+div {
+    margin: .4em 0; 
+}
+div label {
+    width:48%
+
+float:right;}
+
+form fieldset {
+    float: left;;
+    width: 48%;
+}
+input: focus {
+border: 2px solid #000;
+background: #f3f3f3;
+}
+#principal2 {
+    display:inline- block;
+    width: 100px;
+    margin: 50px auto;
+    padding:15px;
+     background: linear-gradient(135deg,#F06 0%, #000 100% );
+    background: linear-gradient(to bottom right,#F06 0%, #000 100%);
+    background:webkit-linear-gradient(#F06 0%, #000 100%);
+}
+#input{
+            focus:border 2px solid #000;
+            background: #f3f3f3;
+            }
+lavel{
+    margin; 15px 0px 15px 0px;
+}
+div img {
+    width: 100px;
+}

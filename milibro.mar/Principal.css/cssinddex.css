@@ -1,0 +1,302 @@
+                                                    body {
+                                                        width: 90%;
+                                                        max-width: 1200px;
+                                                        background-color: #d8c962;
+                                                        padding: 0.10%;
+                                                        margin: 0 auto;
+                                                    }
+                                                    
+                                                    body {
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    h1 {
+                                                        position: relative;
+                                                        background: white;
+                                                        width: 100%;
+                                                        height: 30%;
+                                                        color: #fcd217;
+                                                        align: center;
+                                                    }
+                                                    
+                                                    h2 {
+                                                        background: rgb(20, 19, 19);
+                                                        padding: 0%;
+                                                    }
+                                                    
+                                                    #menu {
+                                                        float: block;
+                                                        transition-property: bacgraund-color, color;
+                                                        transition-duration: 1s;
+                                                        transition-timing-function: ease-out;
+                                                        -webkit-transition-property: background-color, color;
+                                                        -webkit-transition-duration: 1s;
+                                                        -o-transition-property: backgraund-color, color;
+                                                        -o-transition-duration: 1s;
+                                                        text-align: left;
+                                                        background-color: rgb(231, 245, 155);
+                                                        left: 5%;
+                                                        top: 5%;
+                                                        height: 50%;
+                                                        color: rgb(133, 173, 24);
+                                                        border-color: black;
+                                                        font-family: sans-serif;
+                                                        font-size: 80%;
+                                                        text-decoration: none;
+                                                        -moz-box-shadow: 2% 2% 1% 1% rgb(238, 202, 110);
+                                                    }
+                                                    
+                                                    #menu:hover {
+                                                        position: inline block;
+                                                        transition-property: blackground-color, color;
+                                                        transition-duration: 1s;
+                                                        transition-timing-function: ease-out;
+                                                        -webkit-transition-property: background-color, color;
+                                                        -webkit-transition-duration: 1s;
+                                                        -o-transition-property: background-color, color;
+                                                        -o-transition-duration: 1s;
+                                                        background-color: rgb(228, 208, 97);
+                                                        color: rgb(159, 151, 40);
+                                                        -moz-box-shadow: 2px 2px 1px rgb(184, 151, 40);
+                                                    }
+                                                    
+                                                    #menu li {
+                                                        height: 5%;
+                                                        display: inline-block;
+                                                        list-style: none;
+                                                        padding: 0.5%;
+                                                        font size: 45% verdana, sans-serif;
+                                                        color: rgb(10, 9, 10);
+                                                    }
+                                                    
+                                                    #menu {
+                                                        font-size: 60% italic;
+                                                        text-align: center;
+                                                        border: 10%;
+                                                        -webkit-transition-duration: 4s;
+                                                        color: #141413;
+                                                    }
+                                                    
+                                                    #menu {
+                                                        background: white;
+                                                    }
+                                                    
+                                                    a {
+                                                        font-size: 60%;
+                                                        color: rgb(22, 21, 22);
+                                                        text-decoration: none;
+                                                        padding: 2%;
+                                                        margin: 2%;
+                                                        letter-spacing: 20%;
+                                                    }
+                                                    
+                                                    a:hover {
+                                                        background: -webkit-transform: skew(20deg);
+                                                        background: -webkit-linear-gradient(30deg, #d65f00 0%, #937d14 200%);
+                                                        box-shadow: 5% #757575;
+                                                    }
+                                                    
+                                                    h6 {
+                                                        font: oblique;
+                                                        color: rgb(15, 15, 15);
+                                                        padding: 5%;
+                                                    }
+                                                    
+                                                    h4 {
+                                                        font: inline;
+                                                        color: #161414;
+                                                        padding: 5%;
+                                                    }
+                                                    
+                                                    #articulos1 {
+                                                        float: left;
+                                                        width: 30%;
+                                                        margin: 5% 5%;
+                                                        background-color: #ede59a;
+                                                        padding: 5%;
+                                                    }
+                                                    
+                                                    #articulos1 p {
+                                                        background-color: #eadea6;
+                                                        font-size: 60%;
+                                                        color: rgb(24, 16, 16);
+                                                        text-align: justify;
+                                                        padding: 5%;
+                                                        position: relative;
+                                                        float: left;
+                                                    }
+                                                    
+                                                    #articulos2 {
+                                                        float: left;
+                                                        width: 30%;
+                                                        margin: 5% 5%;
+                                                        background-color: #fff5a5;
+                                                        padding: 5%;
+                                                    }
+                                                    
+                                                    #articulos2 p {
+                                                        background-color: #f7e8c3;
+                                                        font-size: 60%;
+                                                        color: rgb(22, 11, 11);
+                                                        text-align: justify;
+                                                        padding: 5%;
+                                                        position: relative;
+                                                        float: left;
+                                                    }
+                                                    
+                                                    #articulos3 {
+                                                        float: left;
+                                                        width: 30%;
+                                                        margin: 5% 5%;
+                                                        background-color: #fff5a5;
+                                                        padding: 5%;
+                                                    }
+                                                    
+                                                    #articulos3 p {
+                                                        background-color: #f7e8c3;
+                                                        font-size: 60%;
+                                                        color: rgb(22, 11, 11);
+                                                        text-align: justify;
+                                                        padding: 5%;
+                                                        float: left;
+                                                    }
+                                                    
+                                                    #articulos4 {
+                                                        float: left;
+                                                        width: 30%;
+                                                        margin: 5% 5%;
+                                                        background-color: #fff5a5;
+                                                        padding: 5%;
+                                                    }
+                                                    
+                                                    #articulos4 p {
+                                                        background-color: #f7e8c3;
+                                                        font-size: 60%;
+                                                        color: rgb(22, 11, 11);
+                                                        text-align: justify;
+                                                        padding: 5%;
+                                                        float: right;
+                                                    }
+                                                    
+                                                    #asesorias1 {
+                                                        float: left;
+                                                        width: 30%;
+                                                        margin: 2% 2%;
+                                                        background: #ede59a;
+                                                        padding: 2%;
+                                                    }
+                                                     
+                                                                                                     
+                                                    #asesorias1 p {
+                                                        background-color: #f7e8c3;
+                                                        font-size: 60%;
+                                                        color: rgb(22, 11, 11);
+                                                        text-align: justify;
+                                                        padding: 2%;
+                                                        float: right;
+                                                    }
+                                                    
+                                                    #asesoria1 img {
+                                                        width: 20%;
+                                                        float: right;
+                                                        font-size: 60%;
+                                                        color: rgb(14, 12, 12);
+                                                        text-decoration: rgb(5, 4, 4);
+                                                    }
+                                                    
+                                                    #asesorias2 {
+                                                        float: left;
+                                                        width: 30%;
+                                                        margin: 2% 2%;
+                                                        background-color: #fff5a5;
+                                                        padding: 2%;
+                                                    }
+                                                    
+                                                    #asesorias2 p a{
+                                                        background-color: #f7e8c3;
+                                                        font-size: 60%;
+                                                        color: rgb(22, 11, 11);
+                                                        text-align: justify;
+                                                        padding: 2%;
+                                                        float: left;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    #asesorias3 {
+                                                        float: left;
+                                                        width: 30%;
+                                                        margin: 2% 2%;
+                                                        background-color: #fff5a5;
+                                                        padding: 2%;
+                                                    }
+                                                    
+                                                    #asesorias3 p a{
+                                                        background-color: #f7e8c3;
+                                                        font-size: 60%;
+                                                        color: rgb(22, 11, 11);
+                                                        text-align: justify;
+                                                        padding: 2%;
+                                                        float: left;
+                                                        text-align: center;
+                                                    
+
+                                                    }
+                                                    
+                                                    #asesorias4 {
+                                                        float: left;
+                                                        width: 30%;
+                                                        margin: 2% 2%;
+                                                        background-color: #fff5a5;
+                                                        padding: 2%;
+                                                    }
+                                                    
+                                                    #asesorias4 p  a{
+                                                        background-color: #f7e8c3;
+                                                        font-size: 60%;
+                                                        color: rgb(22, 11, 11);
+                                                        text-align: justify;
+                                                        padding: 2%;
+                                                        float: left;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    #informacion {
+                                                        float: left;
+                                                        width: 30%;
+                                                        margin: 2% 2%;
+                                                        background-color: #fff5a5;
+                                                        padding: 2%;
+                                                    }
+                                                    
+                                                    #informacion p {
+                                                        background-color: #f7e8c3;
+                                                        font-size: 60%;
+                                                        color: rgb(22, 11, 11);
+                                                        text-align: justify;
+                                                        padding: 2%;
+                                                        float: left;
+                                                        text-align: center;
+                                                    }
+                                                   
+                                                    
+                                                    footer {
+                                                        clear: both;
+                                                        font-size: large;
+                                                        color: white;
+                                                        background: #c9b021;
+                                                        text-align: center;
+                                                        border-top: 12% solid #f8f5f5;
+                                                        padding: 2%;
+                                                    }
+                                                    
+                                                    #pie img {
+                                                        float: left;
+                                                        width: 20%;
+                                                        margin: 2%;
+                                                        background-color: #965858;
+                                                        padding: 2%;
+                                                    }
+                                                    
+                                                    img {
+                                                        width: 60%;
+                                                    }

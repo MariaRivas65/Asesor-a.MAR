@@ -1,0 +1,85 @@
+
+
+
+    body{                                
+        background-color: #a9dbe4;  
+        width: 1000px;     
+       
+        }
+
+    h1{
+        font:bold 36px verdana;
+        text-shadow: #117385 3px 3px 5px;
+    }
+    #principal{
+        display: block;
+        width: 600px;
+        margin: 50px auto;
+        padding: 15px;
+        text-align: center;
+        border:1px solid #073768;
+       background: #b6c6da;
+       box-shadow:rgb(26, 5, 145) 5px 5px 10px;
+       background: -webkit-linear-gradient(30deg,#6b591b, #103c32);
+    }
+  #div  a{
+    display:inline - block;
+    padding:.3em;
+    float:center;
+    width:600px;
+
+}
+
+a {
+    border-bottom:none;
+    background-color:aliceblue;
+    margin:0;
+    padding:0;
+    border-bottom:2px solid #1810af;
+    border-top:2px solid rgb(26, 5, 145);
+    border-right: 2px solid #0707be;
+    border-left: 2px solid #0e0e85;   
+}
+
+
+
+#div pajaros{
+    position: relative;;
+    -moz-transition-property:background-color,color,left;
+    -moz-transition-duration: 5s;
+    -webkit-transition-property: background-color,color,left;
+    -webkit-transition-duration: 5s;
+    background-color: chartreuse;
+    left: 0%;
+    width: 100px;
+    height: 100px;
+    color: crimson;
+
+}
+#div opinion {
+    position: relative;
+    -moz-transition-property: background-color,color,left;-moz-transition-duration: 5s;
+    -webkit-transition-property: background-color,color,left;
+    -webkit-transition-duration: 5s;
+    text-align: center;
+    background-color: cyan;left: 90%;
+    color: darkgoldenrod;width: 100px;
+    height: 100px;
+}
+img {
+    float: right;
+    width: 500px;
+
+}
+#div pajaros img{
+    float: left;
+
+}
+#principal img{ float: left;
+    width: 100px;
+}
+   
+    
+p{ 
+    text-align:justify;
+}

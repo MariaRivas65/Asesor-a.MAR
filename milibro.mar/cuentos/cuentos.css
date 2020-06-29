@@ -1,0 +1,116 @@
+
+body{
+     text-align:center;
+     font-size: 10px;
+      background: white;
+    }
+body{   
+     width: 1200px;
+     background-color:rgba(155, 129, 0, 0.699);
+    }
+
+#principal{
+     display: block;
+     width: 1200px;
+     margin: 0px auto;
+     padding: 15px;
+     text-align: center;
+     border:1px solid #da4789;
+     background:#527215;
+  }
+#principal:hover{
+     box-shadow:#7f6b21 5px 5px 10px;
+     background: -webkit-linear-gradient(315deg,#000 50%, #F04 0%);
+   
+}
+h1{
+    font:bold 50px verdana, sans-serif;
+    text-shadow: #fdfcf7 5px 5px 5px;
+}
+h2 {display: center;
+
+}
+a {position: relative;
+         margin:20px 20px 10px 0px;
+         display: inline;
+         background: #c2aa5c;
+         color: rgb(10, 25, 33);
+         border:1px outset rgb(100, 554, 6);
+         padding:10px 20px;
+         box-shadow: 0px 5px 0px rgb(181, 175, 0);
+ }
+ a:hover{
+        text-decoration:underline ;
+        background: #e6c65f;
+        color: rgb(9, 17, 27);
+ 
+ }
+ 
+ #principal{
+        display: inline;
+         font-size: 15px;
+         font-size:large;
+         background: #b3a700;
+         padding: 5px 15px;
+         float: left;
+         width: 300px;
+ }
+ #principal ul li{
+        list-style: none;
+        padding: 20px;
+        font: bold 20px 2em verdana;
+ }
+ #principal{
+         position: absolute;
+         -moz-transition-property:background-color,color,left;
+         -moz-animation-duration: 5s;
+        -moz-transition-property: background-color,color,left;
+         -webkit-transition-duration: 5s;
+         background-color: rgb(160, 131, 4);
+         left: 0%;
+         width: 1200px;
+         height: 80px;
+         color: rgba(220, 183, 0, 0.699);
+ }
+ #poesia {float: left;
+         font-size:15px;
+         width: 300px;
+         height: 600px;
+         border: rgba(220, 183, 0, 0.699);
+    
+ }
+ #investigacion1 {
+         font-size:15px;
+         width: 300px;
+         border: rgba(220, 183, 0, 0.699);
+         float: left;
+   
+}
+#investigacion2 {float: left;;
+         font-size:15px;
+         width: 300px;
+         border: rgba(220, 183, 0, 0.699);
+   
+}
+#glfglobal {float: left;;
+         font-size:15px;
+         width: 300px;
+         border: rgba(220, 183, 0, 0.699);
+   
+}
+#principal img{
+        width:100px;
+        float: right;
+}
+#principal li { display:inline block;
+        font-size:15px;
+         float: left;
+         padding: 10px;
+         height: 0px;
+         color:#ffffff;
+}
+
+#principal a{
+         font size: 12px;
+         color:#000000;
+}

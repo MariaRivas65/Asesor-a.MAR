@@ -1,0 +1,129 @@
+        body {
+            text-align: center;
+            background: #f5e7c0;
+        }
+        
+        #cabecera {
+            display: block;
+            list-style-position: inside;
+            width: 100%;
+            max-width: 1200px;
+            margin: 2% auto;
+            padding: 2%;
+            text-align: center;
+            background: #b68509;
+        }
+        
+        #cabecera:hover {
+            position: relative;
+            -webkit-animation-direction: reverse;
+            -webkit-animation-duration: 7s;
+            -webkit-animation-timing-function: linear;
+            font-size: 14%;
+            background: -webkit-linear-gradient(30deg, #b59508 0%, #917c06 200%);
+            outline: 2% dashed #f3e193;
+        }
+        
+        #cabecera li {
+            display: inline-block;
+            list-style: none;
+            padding: 2%;
+            font: 14% verdana, sans-serif;
+            color: #ffffff;
+        }
+        
+        #cabecera h1 {
+            font-weight: normal;
+            color: #511845;
+        }
+        
+        form .datosinvestigador input {
+            padding: 2%;
+        }
+        
+        label {
+            display: block;
+            margin: 2% 0 0 0;
+        }
+        
+        .btn {
+            display: block;
+            margin: 1em 0;
+        }
+        
+        div {
+            margin: .4em 0;
+        }
+        
+        div label {
+            width: 48% float: right;
+        }
+        
+        form fieldset {
+            float: center;
+            width: 48%;
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        input:focus {
+            border: 2% solid #000;
+            background: #f3f3f3;
+        }
+        
+        #principal {
+            display: block;
+            width: 50%;
+            margin: 2% auto;
+            padding: 5%;
+            text-align: center;
+            border: 2% solid #999999;
+            background: #dddddd;
+        }
+        
+        #h1 {
+            font: bold 36% verdana, sans-serif;
+            text-shadow: rgba(0, 0, 0, 0.5) 3% 3% 5%;
+            color: hsla(0120, 100%, 50%, 0%, 5%);
+        }
+        
+        input {
+            focus: border 2% solid #000;
+            background: #f3f3f3;
+        }
+        
+        label {
+            margin: 5% 0% 5% 0%;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+        
+        div img {
+            float: right;
+            width: 20%;
+        }
+        
+        #form-label {
+            display: inline-block;
+            vertical-align: top position: absolute;
+            width: 750px;
+            height: 400px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+        
+        #cont-form {
+            display: inline-block;
+            vertical-align: top;
+            width: 188px;
+            height: 400px;
+            padding-left: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+        
+        #formulario {}
+        
+        #navegacion {
+            text-align: center;
+            background: #CCC;
+            border-radius: 5px;
+            font-weight: bold;
+        }
